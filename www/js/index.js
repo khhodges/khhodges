@@ -1,10 +1,6 @@
-document.addEventListener("deviceready", onDeviceReady, false);
 
-function onDeviceReady() {
-    // we will not be doing anything!!
-}
 
-$(document).on("pageshow", function () {
+function getContacts() {
     $.mobile.loading("hide");
     $("body").removeClass('ui-disabled');
     if ($("#contactsList").length == 1) {
@@ -18,7 +14,7 @@ $(document).on("pageshow", function () {
     } else if ($("#addContact").length == 1) {
         bindAddContactEvents();
     }
-});
+};
 
 function onSuccess(contacts) {
     var html = "";
