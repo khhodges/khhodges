@@ -7,6 +7,8 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers'])
 
+alert('appjs')
+
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if (window.StatusBar) {

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.app.SearchContactsAPI" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>SearchContactsAPI</name>
+<widget id="com.app.SearchContactsOn2TAPI" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>On2T Contacts App</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Sample application that combines on2t app woth contact search.
     </description>
-    <author email="arvind@thejackalofjavascript.com" href="http://thejackalofjavascript.com">
-        Arvind Ravulavaru
+    <author email="ken@sipantic.com" href="http://www.sipantic.com">
+        Ken Hamer-Hodges with thanks to Open Source from Arvind Ravulavaru
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />

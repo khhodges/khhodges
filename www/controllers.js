@@ -1,3 +1,5 @@
+alert('controllersjs');
+
 angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function($scope) {

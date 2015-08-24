@@ -1,6 +1,9 @@
+alert('index.js');
 
+var app = angular.module('contactList', []);
 
 function getContacts() {
+    alert('getContacts');
     $.mobile.loading("hide");
     $("body").removeClass('ui-disabled');
     if ($("#contactsList").length == 1) {
