@@ -8,6 +8,15 @@
         Ken Hamer-Hodges with thanks to Open Source from Arvind Ravulavaru
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
+    <preference name="LoadUrlTimeoutValue" value="10000"/>
+    <preference name="InAppBrowserStorageEnabled" value="true"/>
+    <preference name="LoadingDialog" value="My Title,My Message"/>
+    <preference name="LoadingPageDialog" value="My Title,My Message"/>
+    <preference name="ErrorUrl" value="myErrorPage.html"/>
+    <preference name="ShowTitle" value="true"/>
+    <preference name="LogLevel" value="VERBOSE"/>
+    <preference name="AndroidLaunchMode" value="singleTop"/>
+    <preference name="KeepRunning" value="false"/>
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
