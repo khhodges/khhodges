@@ -13,24 +13,22 @@
     <script src="cordova.js"></script>
     <script src="app.js"></script>
     <script src="controllers.js"></script>
+    <script type="text/javascript" charset="utf-8">
     // Wait for device API libraries to load
     //
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
-        alert('listening')
     }
-
     // device APIs are available
     //
     function onDeviceReady() {
         // Now safe to use device APIs
-        alert("Safe to go")
     }
+    </script>
   </head>
 
   <body onload="onLoad()" ng-app="starter" >
     <p><h1>This is Ionic Page 1</h1></P>
-    
     <ion-nav-view></ion-nav-view>
   </body>
 
